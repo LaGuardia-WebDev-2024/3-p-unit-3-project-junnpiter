@@ -20,14 +20,42 @@ Select ONE Additional Feature to Add
   <title>Project: Recipe book</title>
   <meta charset="utf-8">
   <style>
+    body, html{
+      animation: colorChange 3s infinite
+      alternate;
+    }
+    
+    @keyframes colorChange {
+      0%{background-color: #C3ACD0;}
+      100%{background-color: #8D5F8C;}
+    }
+    
+    h1 {
+      color: #ffffff;
+      background-color: #DDC3C3;
+      margin: auto;
+      width: fit-content;
+      padding: 10px;
+      border-radius: 20px;
+      text-shadow: 3px 3px 0 #8D5F8C, 5px 5px 0 #6B3F69;
+      animation: shadow-dance 3s infinite; 
+    }
+    @keyframes shadow-dance {
+      0%, 100% {
+        text-shadow: 3px 3px 0 #8D5F8C, 5px 5px 0 #6B3F69;
+      }
+      50% {
+        text-shadow: -3px -3px 0 #8D5F8C, -5px -5px 0 #6B3F69;
+      }
+    }
   </style>
 </head>
 
 <body>
 
-  <h1>____'s Recipe Book</h1>
+  <h1>UNITY DANCE CREW</h1>
 
-  <h2>Contents:</h2>
+  <h2>aaa</h2>
 
   <ol>
     <li><a href="?">Recipe #1</a></li>
